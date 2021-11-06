@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: Roboto;
+    background-color: #faf5f588;
+    height: 100vh;
+    width: 100%;
+}
+.form-section{
+    width: 100%;
+}
+.form-group{
+    width: 100%;
+    height: auto;    
+}
+
+.title-form{
+    background-image: linear-gradient(to right, #5e2d7c, #f85c4e );
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.title-form h6{
+    padding: 20px 0px;
+    font-size: 1.4rem;
+}
+
+.form-content{
+    border-bottom: 1px solid #5e2d7c;
+    height: 3.5rem;
+}
+
+.negocio{
+    margin-top: 20px;
+}
+
+.form-content input{
+    margin: 3px 0px;
+    height: 2rem;
+    border: 2px solid #f85c4e;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 1rem;
+    color: #240B35;
+}
+
+.form-content label{
+    margin-top: 7px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #240B35;
+}
+
+.form-content select{
+    margin: 3px 0px;
+    height: 1.8rem;
+    border: 2px solid #f85c4e;
+    border-radius: 5px;
+}
+
+
+.button{
+    margin-top: 50px;
+    border-bottom: none;
+}
+
+.button input{
+    width: 20%;
+    background-color: #240B35;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    transition-duration: 0.4s;
+    height: 2.4rem;
+}
+
+.button input:hover{
+    cursor: pointer;
+    background-color: #f85c4e;
+    color: white;
+}
+
+
+

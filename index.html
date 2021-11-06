@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Negócio</title>
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="form-section container">
+        <form class="form-group">
+            <div class="title-form center">
+                <h6>Cadastre seu negócio!</h6>
+            </div>
+            <div class="form-content row negocio">
+                <label for="nome-negocio" class="col s6 m4 l2 ">Nome do negócio:</label>
+                <input class="col s6 m8 l3" type="text" name="nome-negocio" id="nome-negocio" required>
+            </div>
+            <div class="form-content row">
+                <label for="cnpj" class="col s6 m4 l2">CNPJ:</label>
+                <input class="col s6 m8 l3" type="text" name="cnpj" id="cnpj">
+            </div>
+            <div class="form-content row">
+                <label for="email" class="col s6 m4 l2">Email:</label>
+                <input  class="col s6 m8 l3"type="email" name="email" id="email" required>
+            </div>
+            <div class="form-content row">
+                <label for="cidade" class="col s6 m4 l2">Cidade:</label>
+                <input class="col s6 m8 l3"type="text" name="cidade" id="cidade">
+            </div>
+            <div class="form-content row">
+                <label for="estado" class="col s6 m4 l2">Estado:</label>
+                <select class="col s6 m8 l1" name="estado" id="estado">
+                    <option value="1">Bahia</option>
+                    <option value="2">Alagoas</option>
+                    <option value="3">Pernambuco</option>
+                    <option value="4">Sergipe</option>
+                    <option value="5">Ceará</option>
+                </select>
+            </div>
+            <div class="form-content row">
+                <label for="telefone" class="col s6 m4 l2">Telefone celular:</label>
+                <input class="col s6 m8 l3"type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="form-content row">
+                <label for="ramo" class="col s6 m4 l2">Ramo de atividade:</label>
+                <select class="col s6 m8 l1"name="ramo" id="ramo">
+                    <option value="1">Serviços</option>
+                    <option value="2">Comércio</option>
+                    <option value="3">Indústria</option>
+                </select>
+            </div>
+            <div class="form-content button center">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
